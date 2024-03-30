@@ -1,0 +1,51 @@
+
+.min-width{
+    display: none;
+}
+
+@media only screen and (max-width: 1140px) {
+    .max-width{
+        display: none;
+    }
+    .min-width{
+        display: initial;
+        
+        
+    }
+}
+
+
+/* SliderComponent.css */
+
+.custom-prev-arrow{
+    border: 2px solid black;
+    position: absolute;
+    bottom: 23%;
+    right: 20%;
+    z-index: 1;
+    float: right;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.custom-next-arrow{
+    border: 2px solid black;
+    position: absolute;
+    right: 13%;
+    bottom: 23%;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 50%;
+    border: none;
+    
+}
+
+.custom-prev-arrow:hover,
+.custom-next-arrow:hover {
+  background-color: black;
+  transition: 1s;
+  color: white; 
+}

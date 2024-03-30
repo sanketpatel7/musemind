@@ -1,0 +1,49 @@
+.button{
+    border: 2px sollid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.button:hover{
+    flex-direction: row-reverse;
+    transition: 1s;
+}
+
+.copy-btn{
+    padding: 0.8rem 2.5rem;
+    border-radius: 50px;
+    border: none;
+    background-color: yellow;
+    font-size: 1.2rem;
+}
+
+.btn-img{
+    width: 20px;
+    
+}
+
+.btn-img-main{
+    padding: 0.8rem 1rem;
+    border-radius: 50%;
+    border: none;
+    background-color: yellow;
+}
+
+
+/* AutoPlaySlider.css */
+.auto-play-slider {
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .slide {
+    flex: 0 0 100%;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .active {
+    transform: translateX(0);
+  }
+  
